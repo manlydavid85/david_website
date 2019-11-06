@@ -18,3 +18,10 @@ body {
 .about {
     text-align: Center;
 }
+
+.footer {
+    margin: 15px 0 0 0;
+    background-color: rgb(156, 223, 228);
+    padding: 10px;
+    clear: both;
+}
