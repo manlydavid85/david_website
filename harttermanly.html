@@ -41,7 +41,7 @@
                 <form action="/action_page.php">
                     <h3>Measurement Form</h3>
                     <label class="form-label">First name</label><br>
-                    <input class="form-input" type="text" name="firstname" placeholder="firstname"><br>
+                    <input class="form-input" type="text" name="firstname" pattern=".{10,}" required title="10 characters minimum" placeholder="firstname"><br>
                     <label class="form-label">Last name</label><br>
                     <input class="form-input" type="text" name="lastname" placeholder="lastname"><br>
                     <label class="form-label">Height</label><br>
